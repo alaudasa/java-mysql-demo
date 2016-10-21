@@ -1,4 +1,4 @@
-FROM shaomq/demo_base
+FROM index.alauda.cn/alaudasa/centos6-jdk7-maven3
 
 ### Compile ###
 WORKDIR /code
