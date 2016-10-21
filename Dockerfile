@@ -1,6 +1,9 @@
 FROM index.alauda.cn/alaudasa/centos6-jdk7-maven3
 
 ### Compile ###
+ADD pom.xml /pom.xml
+RUN cd / && mvn dependency:go-offline
+
 WORKDIR /code
 ADD pom.xml /code/pom.xml
 ADD src /code/src
