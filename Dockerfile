@@ -1,4 +1,4 @@
-FROM index.alauda.cn/alaudasa/centos6-jdk7-maven3
+FROM ring2016/centos6-jdk7-maven3
 
 ### Compile ###
 ADD pom.xml /pom.xml
