@@ -2,6 +2,7 @@
 ## Build database
 ```bash
 cd database
+docker build -t java-mysql-demo-database .
 ```
 
 
